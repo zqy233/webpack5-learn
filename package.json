@@ -1,0 +1,20 @@
+{
+  "name": "webpack5-learn",
+  "description": "",
+  "version": "0.0.1",
+  "scripts": {
+    "docs": "vitepress dev docs --temp",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "gitalk": "node ./doc-build/addMarkdown.js",
+    "clean": "node ./doc-build/delMarkdown.js"
+  },
+  "dependencies": {
+    "gitalk": "^1.8.0",
+    "md5": "^2.3.0"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.31"
+  },
+  "license": "MIT"
+}

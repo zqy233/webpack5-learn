@@ -21,13 +21,13 @@ export default defineConfig({
       copyright: `Copyright © 2022.4-${new Date().getFullYear()}.${new Date().getMonth() + 1}`,
     },
     editLink: {
-      pattern: 'https://github.com/zqy233/formatAndSave/edit/master/blog/:path',
+      pattern: 'https://github.com/zqy233/webpack5-learn/edit/master/docs/:path',
       text: 'Edit this page on GitHub',
     },
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/zqy233/formatAndSave',
+        link: 'https://github.com/zqy233/webpack5-learn',
       },
     ],
     nav: [

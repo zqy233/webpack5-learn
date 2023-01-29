@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as c,a as d}from"./app.f2288378.js";const b=JSON.parse('{"title":"什么是 webpack","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","lastUpdated":1674960475000}'),o={name:"index.md"},t=d("",5),s=[t];function _(n,p,r,i,l,h){return c(),a("div",null,s)}const k=e(o,[["render",_]]);export{b as __pageData,k as default};

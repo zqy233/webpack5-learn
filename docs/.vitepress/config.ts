@@ -16,13 +16,15 @@ export default defineConfig({
       light: '/logo-light.svg',
       dark: '/logo-dark.svg',
     },
+    outlineTitle: '目录',
+    lastUpdatedText: '更新日期',
     footer: {
       message: 'Released under the MIT License.',
       copyright: `Copyright © 2022.4-${new Date().getFullYear()}.${new Date().getMonth() + 1}`,
     },
     editLink: {
       pattern: 'https://github.com/zqy233/webpack5-learn/edit/master/docs/:path',
-      text: 'Edit this page on GitHub',
+      text: '在GitHub编辑此页',
     },
     socialLinks: [
       {

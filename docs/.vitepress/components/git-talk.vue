@@ -31,4 +31,20 @@ export default {
 .gt-container .gt-header-textarea {
   color: #000;
 }
+.dark .gt-container .gt-header-textarea {
+  background-color: #1a1a1a;
+}
+.dark .gt-container .gt-header-preview {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+.dark .gt-container .gt-header-textarea {
+  color: #fff;
+}
+.dark .gt-container .gt-comment-admin .gt-comment-content {
+  background-color: #1a1a1a;
+}
+.dark .gt-container .gt-comment-body {
+  color: #fff !important;
+}
 </style>

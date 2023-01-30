@@ -6,7 +6,7 @@
     "docs": "vitepress dev docs --temp",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
-    "gitalk": "node ./doc-build/addMarkdown.js",
+    "gitalk": "node ./doc-build/delMarkdown.js & node ./doc-build/addMarkdown.js",
     "clean": "node ./doc-build/delMarkdown.js"
   },
   "dependencies": {

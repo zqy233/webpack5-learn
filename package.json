@@ -14,7 +14,18 @@
     "md5": "^2.3.0"
   },
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.31"
+    "vitepress": "^1.0.0-alpha.31",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "react",
+        "react-dom",
+        "@algolia/client-search"
+      ]
+    }
+  }
 }

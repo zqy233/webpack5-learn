@@ -32,10 +32,25 @@ export default defineConfig({
     ],
     nav: [
       {
-        text: '起步',
+        text: '入门',
         items: [
           {
-            text: '什么是 webpack',
+            text: '前言',
+            link: '/',
+            activeMatch: '/',
+          },
+          {
+            text: '安装',
+            link: '/start/start',
+            activeMatch: '/start/start',
+          },
+        ],
+      },
+      {
+        text: '进阶',
+        items: [
+          {
+            text: '前言',
             link: '/',
             activeMatch: '/',
           },
@@ -47,22 +62,21 @@ export default defineConfig({
         ],
       },
     ],
-    sidebar: {
-      '/': [
-        {
-          text: '起步',
-          items: [
-            {
-              text: '什么是 webpack',
-              link: '/',
-            },
-            {
-              text: '安装',
-              link: '/start/start',
-            },
-          ],
-        },
-      ],
-    },
+    sidebar: [
+      {
+        text: '入门',
+        collapsible: true,
+        items: [
+          {
+            text: '前言',
+            link: '/',
+          },
+          {
+            text: '安装',
+            link: '/start/start',
+          },
+        ],
+      },
+    ],
   },
 })

@@ -16,7 +16,7 @@ export default {
     const commentConfig = {
       clientID: '20f8cea4f1ef5c3564d9',
       clientSecret: '783ca81914654d8cf6eebd313d2b39ad4e734cb9',
-      repo: 'formatAndSave',
+      repo: 'webpack5-learn',
       owner: 'zqy233',
       admin: ['zqy233'],
       id: md5(location.pathname),

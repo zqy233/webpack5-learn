@@ -52,14 +52,9 @@ export default defineConfig({
         text: '进阶',
         items: [
           {
-            text: '前言',
-            link: '/',
-            activeMatch: '/',
-          },
-          {
-            text: '安装',
-            link: '/start/start',
-            activeMatch: '/start/start',
+            text: '实现一个vue脚手架',
+            link: '/advanced/vuecli',
+            activeMatch: '/advanced/vuecli',
           },
         ],
       },
@@ -76,6 +71,16 @@ export default defineConfig({
           {
             text: '安装',
             link: '/start/start',
+          },
+        ],
+      },
+      {
+        text: '进阶',
+        collapsible: true,
+        items: [
+          {
+            text: '实现一个vue脚手架',
+            link: '/advanced/vuecli',
           },
         ],
       },

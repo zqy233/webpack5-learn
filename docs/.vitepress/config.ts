@@ -42,9 +42,19 @@ export default defineConfig({
             activeMatch: '/',
           },
           {
-            text: '安装',
-            link: '/start/start',
-            activeMatch: '/start/start',
+            text: '配置文件',
+            link: '/start/配置文件',
+            activeMatch: '/start/配置文件',
+          },
+          {
+            text: '处理样式',
+            link: '/start/处理样式',
+            activeMatch: '/start/处理样式',
+          },
+          {
+            text: '安装typescript',
+            link: '/start/安装typescript',
+            activeMatch: '/start/安装typescript',
           },
         ],
       },
@@ -69,8 +79,16 @@ export default defineConfig({
             link: '/',
           },
           {
-            text: '安装',
-            link: '/start/start',
+            text: '配置文件',
+            link: '/start/配置文件',
+          },
+          {
+            text: '处理样式',
+            link: '/start/处理样式',
+          },
+          {
+            text: '安装typescript',
+            link: '/start/安装typescript',
           },
         ],
       },

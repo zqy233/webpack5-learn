@@ -1,5 +1,14 @@
 # 前言
 
+> 本博客是个人学习webpack5，收集整理相关学习资料整合而成
+>
+> 内容来自但不限于以下文章
+>
+> - 官网https://webpack.docschina.org/concepts/
+> - 尚硅谷http://xxpromise.gitee.io/webpack5-docs/
+> - 掘金https://juejin.cn/post/7034810358795599880#comment
+> - 掘金https://juejin.cn/post/7029609093539037197#comment
+
 ## 前端为什么需要打包工具
 
 开发前端项目时，会使用如`react`，`vue`等框架，会使用`es6`与模块化语法，会使用`less`和`sass`等 css 预处理器等语法进行开发，这样的代码要想在浏览器运行，需要编译成浏览器能识别的`js`、`css`语法
@@ -11,6 +20,7 @@
 - webpack
 - rollup
 - vite
+- parcel
 - grunt
 - gulp
 - ...
@@ -102,7 +112,3 @@ index.html 引入打包后的 main.js 文件，浏览器中可以正常输出`Ja
 ```
 
  <git-talk/>
-
- 
- <git-talk/> 
- 

@@ -16,12 +16,19 @@ export default defineConfig({
       light: '/logo-light.svg',
       dark: '/logo-dark.svg',
     },
-    outlineTitle: '目录',
-    lastUpdatedText: '更新日期',
     footer: {
       message: 'Released under the MIT License.',
       copyright: `Copyright © 2022.4-${new Date().getFullYear()}.${new Date().getMonth() + 1}`,
     },
+    lastUpdatedText: '更新日期',
+    docFooter: {
+      prev: '上一页',
+      next: '下一页',
+    },
+    darkModeSwitchLabel: '主题',
+    outlineTitle: '索引',
+    sidebarMenuLabel: '目录',
+    returnToTopLabel: '回到顶部',
     editLink: {
       pattern: 'https://github.com/zqy233/webpack5-learn/edit/master/docs/:path',
       text: '在GitHub编辑此页',
@@ -72,7 +79,7 @@ export default defineConfig({
     sidebar: [
       {
         text: '入门',
-        collapsible: true,
+        collapsed: false,
         items: [
           {
             text: '前言',
@@ -94,7 +101,7 @@ export default defineConfig({
       },
       {
         text: '进阶',
-        collapsible: true,
+        collapsed: true,
         items: [
           {
             text: '实现一个vue脚手架',

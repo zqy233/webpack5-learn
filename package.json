@@ -10,18 +10,19 @@
     "clean": "node ./doc-build/delMarkdown.js"
   },
   "dependencies": {
+    "flexsearch": "^0.7.31",
     "gitalk": "^1.8.0",
-    "md5": "^2.3.0"
+    "md5": "^2.3.0",
+    "vitepress-plugin-search": "1.0.4-alpha.19"
   },
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.31",
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1"
+    "vitepress": "1.0.0-alpha.45"
   },
   "license": "MIT",
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [
+        "vue",
         "react",
         "react-dom",
         "@algolia/client-search"

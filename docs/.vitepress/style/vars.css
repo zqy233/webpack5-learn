@@ -62,3 +62,7 @@ html {
   border-radius: 10px;
   background-color: #CCCCCC;
 }
+
+code .line {
+  white-space: pre-wrap;
+}

@@ -68,7 +68,3 @@ modele: {
 ### lnline loader
 
 ## 开发一个 loader
-
- 
- <git-talk/> 
- 

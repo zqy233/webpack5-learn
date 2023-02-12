@@ -1,13 +1,13 @@
 # 前言
 
-> 本博客是个人学习 webpack5，收集整理相关学习资料整合而成
+> 本博客用于个人学习 webpack5，记录整理相关知识
 >
-> 内容来自但不限于以下文章
+> 基于尚硅谷 webpack5 教程，进行二次修改，整合各类学习资料
 >
-> - 官网https://webpack.docschina.org/concepts/
-> - 尚硅谷http://xxpromise.gitee.io/webpack5-docs/
-> - 掘金https://juejin.cn/post/7034810358795599880#comment
-> - 掘金https://juejin.cn/post/7029609093539037197#comment
+> - 尚硅谷 webpack5 教程 http://xxpromise.gitee.io/webpack5-docs/
+> - webpack5 官网 https://webpack.docschina.org/concepts/
+> - webpack5 搭建 vue3 教程 https://juejin.cn/post/7034810358795599880#comment
+> - vue3 使用vue-i18n https://juejin.cn/post/7029609093539037197#comment
 
 ## 前端为什么需要打包工具
 
@@ -27,7 +27,7 @@
 
 目前前端使用量最高的打包工具还是`webpack`，所以是前端开发者应该学习与掌握的
 
-## 什么是 webpack
+## 什么是webpack
 
 `webpack`是一个静态资源打包工具，它会以一个或多个文件作为打包的入口。将整个项目的所有文件编译组合成一个或多个文件输出出去。输出的文件就是编译好的文件，就可以在浏览器端运行了
 
@@ -38,7 +38,7 @@
 - 开发模式：仅能编译 js 中的`ES Module`语法
 - 生产模式：能编译 js 中的`ES Module`语法，还能压缩 js 代码
 
-## 入门示例
+## 如何使用webpack
 
 定义一个 main.js
 
@@ -88,13 +88,17 @@ webpack 是运行在 node 环境中的，需要安装以下两个 npm 包：
 npm i -D webpack webpack-cli
 ```
 
-使用 webpack 打包`main.js`为`dist/main.js`(`dist`为压缩文件夹名)，`--mode`代表模式，`development`开发模式，`production`生产模式，`-o`代表输出到指定文件夹下
+使用 webpack 打包`main.js`为`dist/main.js`(`dist`为压缩文件夹名)
+
+`npx webpack`: 表示本地安装运行 `webpack ` 
+
+`--mode`代表模式，`development`开发模式，`production`生产模式，`-o`代表输出到指定文件夹下
 
 ```js
 npx webpack ./main.js --mode=development -o dist
 ```
 
-index.html 引入打包后的 main.js 文件，浏览器中可以正常输出`Jack`
+`index.html`引入打包后的`main.js`文件，浏览器中可以正常输出`Jack`
 
 ```html
 <!DOCTYPE html>
@@ -110,7 +114,3 @@ index.html 引入打包后的 main.js 文件，浏览器中可以正常输出`Ja
   </body>
 </html>
 ```
-
- 
- <git-talk/> 
- 

@@ -4,7 +4,8 @@ import path from 'path'
 const mdFilePath = path.join(__dirname, '../docs/')
 // 排除文件
 const excludeFile = ['.vitepress', 'public', 'index.md', 'vite.config.ts']
-
+// homeName
+const homeName = '前言'
 interface sidebar {
   text: string
   collapsed: boolean
@@ -33,12 +34,12 @@ export function getSidebar(sidebar = <sidebar[]>[]) {
       // 首页
       if (text === '入门') {
         sidebar[text].items.push({
-          text: '前言',
+          text: homeName,
           link: '/',
         })
       }
       // 把首页移到数组第一个
-      const index = sidebar[text].items.findIndex(item => item.text === '前言')
+      const index = sidebar[text].items.findIndex(item => item.text === homeName)
       const item = sidebar[text].items.splice(index, 1)
       sidebar[text].items.unshift(item[0])
       // 按照文档前面数字进行排序
@@ -80,13 +81,13 @@ export function getNav(nav = <nav[]>[]) {
       // 首页
       if (text === '入门') {
         nav[text].items.push({
-          text: '前言',
+          text: homeName,
           link: '/',
           activeMatch: '/',
         })
       }
       // 把首页移到数组第一个
-      const index = nav[text].items.findIndex(item => item.text === '前言')
+      const index = nav[text].items.findIndex(item => item.text === homeName)
       const item = nav[text].items.splice(index, 1)
       nav[text].items.unshift(item[0])
       // 按照文档前面数字进行排序

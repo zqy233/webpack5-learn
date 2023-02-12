@@ -39,7 +39,3 @@ module.exports = {
 }
 ```
 
-
- 
- <git-talk/> 
- 

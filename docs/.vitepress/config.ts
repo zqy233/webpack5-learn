@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { getSidebar, getNav } from '../../doc-build/getNavAndSidebar'
 
 export default defineConfig({
   base: '/webpack5-learn/',
@@ -39,76 +40,7 @@ export default defineConfig({
         link: 'https://github.com/zqy233/webpack5-learn',
       },
     ],
-    nav: [
-      {
-        text: '入门',
-        items: [
-          {
-            text: '前言',
-            link: '/',
-            activeMatch: '/',
-          },
-          {
-            text: '配置文件',
-            link: '/start/配置文件',
-            activeMatch: '/start/配置文件',
-          },
-          {
-            text: '处理样式',
-            link: '/start/处理样式',
-            activeMatch: '/start/处理样式',
-          },
-          {
-            text: '安装typescript',
-            link: '/start/安装typescript',
-            activeMatch: '/start/安装typescript',
-          },
-        ],
-      },
-      {
-        text: '进阶',
-        items: [
-          {
-            text: '实现一个vue脚手架',
-            link: '/advanced/vuecli',
-            activeMatch: '/advanced/vuecli',
-          },
-        ],
-      },
-    ],
-    sidebar: [
-      {
-        text: '入门',
-        collapsed: false,
-        items: [
-          {
-            text: '前言',
-            link: '/',
-          },
-          {
-            text: '配置文件',
-            link: '/start/配置文件',
-          },
-          {
-            text: '处理样式',
-            link: '/start/处理样式',
-          },
-          {
-            text: '安装typescript',
-            link: '/start/安装typescript',
-          },
-        ],
-      },
-      {
-        text: '进阶',
-        collapsed: true,
-        items: [
-          {
-            text: '实现一个vue脚手架',
-            link: '/advanced/vuecli',
-          },
-        ],
-      },
-    ],
+    nav: getNav(),
+    sidebar: getSidebar(),
   },
 })

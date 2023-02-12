@@ -3,6 +3,7 @@
   "description": "",
   "version": "0.0.1",
   "scripts": {
+    "watch": "npx nodemon --watch docs -e md --exec pnpm run docs",
     "docs": "vitepress dev docs --temp",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
@@ -16,6 +17,9 @@
     "vitepress-plugin-search": "1.0.4-alpha.19"
   },
   "devDependencies": {
+    "@types/node": "^18.13.0",
+    "chokidar": "^3.5.3",
+    "chokidar-cli": "^3.0.0",
     "vitepress": "1.0.0-alpha.45"
   },
   "license": "MIT",

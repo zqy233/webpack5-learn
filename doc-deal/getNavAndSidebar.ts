@@ -4,7 +4,7 @@ import path from 'path'
 const mdFilePath = path.join(__dirname, '../docs/')
 // 排除文件
 const excludeFile = ['.vitepress', 'public', 'index.md', 'vite.config.ts']
-// homeName
+// 首页名称
 const homeName = '前言'
 interface sidebar {
   text: string

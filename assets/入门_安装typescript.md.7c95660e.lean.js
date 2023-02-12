@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,a as p}from"./app.19a34edf.js";const d=JSON.parse('{"title":"安装typescript","description":"","frontmatter":{},"headers":[],"relativePath":"入门/安装typescript.md","lastUpdated":1676214672000}'),l={name:"入门/安装typescript.md"},e=p("",6),o=[e];function r(c,t,B,i,y,u){return a(),n("div",null,o)}const m=s(l,[["render",r]]);export{d as __pageData,m as default};

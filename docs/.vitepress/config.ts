@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { getSidebar, getNav } from '../../doc-build/getNavAndSidebar'
+import { getSidebar, getNav } from '../../doc-deal/getNavAndSidebar'
 
 export default defineConfig({
   base: '/webpack5-learn/',

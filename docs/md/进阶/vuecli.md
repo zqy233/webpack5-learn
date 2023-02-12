@@ -390,3 +390,7 @@ console.log('i18n', t('message.hello'))
 - https://juejin.cn/post/7034810358795599880#comment
 - https://juejin.cn/post/7029609093539037197#comment
 - [vite 解决警告:vue-i18n.esm-bundler.js:39 You are running the esm-bundler build of vue-i18n. It is recomme_BY_BC 的博客-CSDN 博客](https://blog.csdn.net/BY_BC/article/details/125387921)
+
+ 
+ <git-talk/> 
+ 

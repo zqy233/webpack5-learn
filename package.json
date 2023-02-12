@@ -7,8 +7,8 @@
     "docs": "vitepress dev docs --temp",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
-    "gitalk": "node ./doc-build/delMarkdown.js & node ./doc-build/addMarkdown.js",
-    "clean": "node ./doc-build/delMarkdown.js"
+    "add": "pnpm run del & node ./doc-deal/addGitalk.js",
+    "del": "node ./doc-deal/delGitalk.js"
   },
   "dependencies": {
     "flexsearch": "^0.7.31",
